@@ -1,31 +1,40 @@
-# Python Template [![CI](https://github.com/nogibjj/IDS706_miniproject2_Mutian/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/IDS706_miniproject2_Mutian/actions/workflows/cicd.yml)
-# Week 2 Mini Project 2 - Pandas Descriptive Statistics Script
+# Week 11 Mini Project 11
 
 ## Goal
-modify and introduce Pandas-based descriptive statistics.
+Create a data pipeline using Databricks
+
+Include at least one data source and one data sink
 
 ## Overview
-This project demonstrates some basic statistical info on the Oscars female dataset with python libraries like pandas,numpy and matplotlib.
+This project demonstrates a standard data pipeline using databricks platform
 
-My Work:
-1) Add the required package in requirements.txt. <font style="color:#FF00BB"> **pandas 2.1.0** && **matplotlib 3.4.3** && **numpy 1.22.4** </font>
+## Prepare
+1. Azure Databricks
+2. Song dataset
 
-2) Add function "loadDf" in main.py which reads a csv file to a dataframe && "describeData" which loads a dataframe and return a statistical info of that data && "plotData" that plots a scatter fig in which describe the age of each year's Oscar female winners.
-
-4) Add a test function in test_main.py to test the correctness of the function in main.py
-
-
-## Requirements
-* Python (Version 3.6 or newer)
-* Pandas (Version 2.1.0)
-* Matplotlib (Version 3.4.3)
-* Numpy(Version 1.22.4)
-
-## Output
-
-* Descriptive Statiscs:
-![img](https://github.com/nogibjj/IDS706_miniproject2_Mutian/blob/a3655289b8ae6f6e1bb20690b570ae3be4ccb7e8/data.png)
+## Steps
+### Structure:
+<img width="1360" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/6d2a03f2-cd94-4c71-b5d5-50f98e79f9ae">
 
 
-* Scatter Plot
-  ![img](https://github.com/nogibjj/IDS706_miniproject2_Mutian/blob/main/scatterfig.png)
+1. Create a notebook for Ingest Raw Data
+   <img width="1820" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/d4dad4c2-74dc-4b59-9292-2753bb950348">
+
+   ### Raw Data:
+  <img width="1746" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/08332390-816a-41b6-a21d-e0743bbdd50d">
+
+2. Create a notebook for Prepare Data
+  <img width="1441" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/bc9cd952-65b5-4b02-a03c-977b89151d59">
+
+  ### Prepared Songs Data:
+<img width="1910" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/41c50f1a-34d0-43d9-a80b-90a8001ccf61">
+
+3. Create a notebook for Query Data
+
+<img width="1459" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/698ada7e-59fe-4d29-8582-9626ca124b87">
+
+
+4. Create a workflow
+<img width="1698" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/a8df250e-be7f-486d-813b-0b11f2556415">
+
+<img width="1418" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/77066ae9-75c0-4972-b40e-9b42ce2edbd1">
