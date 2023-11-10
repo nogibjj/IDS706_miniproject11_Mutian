@@ -38,3 +38,6 @@ This project demonstrates a standard data pipeline using databricks platform
 <img width="1698" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/a8df250e-be7f-486d-813b-0b11f2556415">
 
 <img width="1418" alt="image" src="https://github.com/nogibjj/IDS706_miniproject11_Mutian/assets/108935314/77066ae9-75c0-4972-b40e-9b42ce2edbd1">
+
+## Reference
+https://docs.databricks.com/en/getting-started/data-pipeline-get-started.html
